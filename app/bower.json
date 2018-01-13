@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "authors": [
+    "Avinash Varma <iavinashvarma@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-mocks": "^1.6.8"
+  }
+}
