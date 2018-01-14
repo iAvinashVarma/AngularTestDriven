@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">edit_location</i>
-                        <input placeholder="Country" name="country" type="text" class="validate" ng-model="newDestination.country">
+                        <input placeholder="Country" name="country" type="text" class="validate" ng-model="newDestination.country" required>
                         <label for="email">Country</label>
                     </div>
                 </div>
@@ -51,7 +51,10 @@
         <h3>Added Trips</h3>
         <hr/>
         <ul class="collection" ng-repeat="destination in destinations">
-            <li class="collection-item">{{destination.city}} - {{destination.country}}</li>
+            <li class = "collection-item">
+            <div>{{destination.city}} - {{destination.country}}<a href = "#!" class = "secondary-content">
+               <i class = "material-icons">cloud</i></a></div></li>
+         <li class = "collection-item">
         </ul>
         </div>
     </div>
